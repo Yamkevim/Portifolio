@@ -1,0 +1,53 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+.dadosPessoais{
+    position: absolute;
+    margin-top: 1200px;
+    height: 300px;
+    font-size: 25px;
+
+}
+.fotoperfil{
+    position: absolute;
+    margin-top: 150px;
+    height: 500px;
+    margin-left: 290px;
+
+}    
+.imgFormacao{
+  height: 200px;
+}
+
+.redespessoais{
+    position: absolute;
+    margin-top: 180px;
+    height: 300px;
+    font-size: 25px;
+    
+}
+
+#intro {
+    background-color :white  ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #000000;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #000000;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #04060a;
+    }
+  }
