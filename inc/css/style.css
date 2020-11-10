@@ -11,16 +11,36 @@ header,
     font-size: 25px;
 
 }
-.fotoperfil{
-    position: absolute;
-    margin-top: 150px;
-    height: 500px;
-    margin-left: 290px;
 
-}    
+.fotoPerfil {
+  border-radius: 50%;
+    margin-top: 80px;
+    height: 300px;
+    margin-left: 520px;
+
+}   
+.card-title{
+  height: 300px;
+    margin-left: 520px;
+
+    
+} 
+.navbar{
+  background-color: #000000;
+}
+.img-fluid{
+  height: 200px;
+}
+.card-text{
+  
+  margin-top:0px ;
+  height: 300px;
+    margin-left: 520px;
+}
 .imgFormacao{
   height: 200px;
 }
+
 
 .redespessoais{
     position: absolute;
@@ -29,7 +49,13 @@ header,
     font-size: 25px;
     
 }
-
+.sobreFlex{
+  display: flex;
+}
+.mask {
+  margin-right: 900px;
+  margin-top: 20px;
+}
 #intro {
     background-color :white  ;
     -webkit-background-size: cover;
@@ -41,13 +67,4 @@ header,
 .top-nav-collapse {
     background-color: #000000;
   }
-  @media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse) {
-      background-color: #000000;
-    }
-  }
-  @media (min-width: 800px) and (max-width: 850px) {
-    .navbar:not(.top-nav-collapse) {
-      background-color: #04060a;
-    }
-  }
+  

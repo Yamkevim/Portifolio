@@ -16,6 +16,17 @@ function regular_map() {
         title: "New York"
     });
 }
+function funContato()
+{
+
+var r=confirm("Mandar mensagem no Whatsapp?");
+if (r==true)
+  {
+  
+  }
+
+document.getElementById("demo").innerHTML=x;
+}
 
 // Initialize maps
 google.maps.event.addDomListener(window, 'load', regular_map);
